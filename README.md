@@ -15,8 +15,9 @@
 
 | Components                                                                                |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| `App()` : tracks state for `allGoblins`,  `filteredGoblins`, `goblinFormName`, `goblinFormHP`, `goblinFormColor` |.5|
-| `App()` : passes state as props correctly to `GoblinForm`, `Goblin`, and `GoblinList` |.5|
+✅ | `App()` : tracks state for `allGoblins`,  `filteredGoblins`, `goblinFormName`, `goblinFormHP`, `goblinFormColor` |.5|
+
+| `App()` : passes state as props correctly to `GoblinForm`, ✅ `Goblin`, and `GoblinList` |.5|
 | `App()` : define a `submitGoblin` function that adds a new goblin to the array using form state. Note that this function gets passed down to the goblin form, which is where it will be attached to a submit listener |1|
 | `App()` : define a `handleDeleteGoblin` function that deleted a goblin from the state array using id |1|
 | `App()` : define a `handleFilterGoblins` function that takes in a string and set `filteredGoblins` to an array of goblins whose name matches that string |1|
