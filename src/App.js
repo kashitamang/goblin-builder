@@ -21,7 +21,7 @@ function App() {
   const [filteredGoblins, setAllFilteredGoblins] = useState('');
   const [filterQuery, setFilterQuery] = useState('');
   
-  useEffect(() => handleFilterGoblins(filterQuery), [filterQuery]);
+  useEffect(() => handleFilterGoblins(filterQuery));
 
   function submitGoblin(e) {
     e.preventDefault();
