@@ -9,11 +9,12 @@ export default function GoblinList({ handleDeleteGoblin, visibleGoblins }) {
       The only difference here is that you need to pass handleDeleteGoblin (a prop that is a function), as well */}
       
       {visibleGoblins.map((goblin, i) => (
+
         <Goblin 
           handleDeleteGoblin={handleDeleteGoblin}
           key={goblin.name + i}
-          goblin={goblin} />
-      ))};
+          goblin={goblin}/>
+      ))}
     </div>
   );
 }
